@@ -37,6 +37,16 @@ struct MeetingView: View {
                 }
                 .accessibilityLabel("Next speaker")
             }
+            VStack {
+                Text("Inventory")
+                    .font(.title)
+                    .bold()
+                HStack {
+                    Label("Paperclips", systemImage: "paperclip.circle.fill")
+                    Text("3")
+                        .font(.largeTitle)
+                }
+            }
         }
         .padding()
     }
