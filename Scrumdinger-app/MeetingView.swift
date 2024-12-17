@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MeetingView: View {
     var body: some View {
         VStack {
-            Text("Project Updated! Hello from Hzlnqodrey")
+            Text("Project Updated! Hello from Hzlnqodrey");
+            Text("A")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    MeetingView()
 }
