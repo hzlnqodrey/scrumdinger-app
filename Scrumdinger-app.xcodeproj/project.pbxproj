@@ -29,12 +29,31 @@
 		DC216B132D11BDDE005263A7 /* Scrumdinger-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrumdinger-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DC216AFB2D11BDDC005263A7 /* Scrumdinger-app */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Scrumdinger-app";
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DC81D7E72D12BF3000982380 /* Exceptions for "Scrumdinger-app" folder in "Scrumdinger-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				MeetingView.swift,
+				Models/DailyScrum.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Scrumdinger_appApp.swift,
+			);
+			target = DC216AF82D11BDDC005263A7 /* Scrumdinger-app */;
 		};
+		DC81D7E82D12BF3000982380 /* Exceptions for "Scrumdinger-app" folder in "Scrumdinger-appUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				MeetingView.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Scrumdinger_appApp.swift,
+			);
+			target = DC216B122D11BDDE005263A7 /* Scrumdinger-appUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		DC216B0C2D11BDDE005263A7 /* Scrumdinger-appTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Scrumdinger-appTests";
@@ -43,6 +62,15 @@
 		DC216B162D11BDDE005263A7 /* Scrumdinger-appUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Scrumdinger-appUITests";
+			sourceTree = "<group>";
+		};
+		DC81D7E22D12BF2F00982380 /* Scrumdinger-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DC81D7E72D12BF3000982380 /* Exceptions for "Scrumdinger-app" folder in "Scrumdinger-app" target */,
+				DC81D7E82D12BF3000982380 /* Exceptions for "Scrumdinger-app" folder in "Scrumdinger-appUITests" target */,
+			);
+			path = "Scrumdinger-app";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +103,7 @@
 		DC216AF02D11BDDC005263A7 = {
 			isa = PBXGroup;
 			children = (
-				DC216AFB2D11BDDC005263A7 /* Scrumdinger-app */,
+				DC81D7E22D12BF2F00982380 /* Scrumdinger-app */,
 				DC216B0C2D11BDDE005263A7 /* Scrumdinger-appTests */,
 				DC216B162D11BDDE005263A7 /* Scrumdinger-appUITests */,
 				DC216AFA2D11BDDC005263A7 /* Products */,
@@ -106,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DC216AFB2D11BDDC005263A7 /* Scrumdinger-app */,
 			);
 			name = "Scrumdinger-app";
 			packageProductDependencies = (
@@ -155,6 +180,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DC216B162D11BDDE005263A7 /* Scrumdinger-appUITests */,
+				DC81D7E22D12BF2F00982380 /* Scrumdinger-app */,
 			);
 			name = "Scrumdinger-appUITests";
 			packageProductDependencies = (
