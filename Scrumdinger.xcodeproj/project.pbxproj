@@ -15,7 +15,6 @@
 		AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE8021294793AB0099DABC /* MeetingView.swift */; };
 		AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8023294793AB0099DABC /* Assets.xcassets */; };
 		AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8026294793AB0099DABC /* Preview Assets.xcassets */; };
-		AAAE8031294795050099DABC /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8030294795050099DABC /* SampleCode.xcconfig */; };
 		C76970A02948F3A4002748F5 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769709F2948F3A4002748F5 /* ScrumsView.swift */; };
 		DCF62A0F2D14360D0064411B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF62A0E2D14360D0064411B /* DetailView.swift */; };
 /* End PBXBuildFile section */
@@ -144,7 +143,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					AAAE801B294793AB0099DABC = {
 						CreatedOnToolsVersion = 14.1;
@@ -175,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */,
-				AAAE8031294795050099DABC /* SampleCode.xcconfig in Resources */,
 				AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +236,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -299,6 +298,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
