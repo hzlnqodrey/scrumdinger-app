@@ -12,3 +12,6 @@ struct ScrumdingerApp: App {
         }
     }
 }
+
+//  @State, you create a source of truth within your view. The system identifies all elements of a view that depend on the value of a @State property.
+
